@@ -1,0 +1,17 @@
+div{
+    border: 2px solid black;
+}
+#we{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#me{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+/* align self has higher priority than align items. */

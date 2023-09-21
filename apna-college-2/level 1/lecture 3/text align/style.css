@@ -1,0 +1,13 @@
+h1{text-align: center;
+text-decoration: underline;}
+p{text-align: left;}
+/* text align can be left,right,centre. */
+/* text align change based on parent element. 
+in english left=start and right= end and change based on language.*/
+/* text decoration :underline, overline and line through to cut text. 
+also used as none word in anchor tags. also add color like red underline, style underline like:solid,wavy,doted,dash.*/
+h2{font-weight:bolder}
+h3{font-weight: light;}
+h4{font-weight: normal;}
+h5{font-weight: bold;}
+/* font weight: 100-900 value and also by name like : lighter,darker,bolder,normal etc. */

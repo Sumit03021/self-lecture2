@@ -1,0 +1,13 @@
+#box1{
+    height: 5rem;
+    width: 7rem;
+    background-color: blue;
+
+}
+#box2{
+    height: 50vh;
+    width: 50vw;
+    background-color: yellow;
+}
+/* vh means relative to viewport height
+vw viewport width */

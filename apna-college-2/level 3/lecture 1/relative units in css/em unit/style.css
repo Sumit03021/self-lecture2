@@ -1,0 +1,16 @@
+/* em used in as measured wrt. font size of parent elements. 
+but for width consider font size of element.*/
+#box1{
+height: 200px;
+width: 200px;
+background-color: blue;
+font-size: 10px;
+}
+
+#box2{
+    height: 50px;
+    width: 5em;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+}

@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    background-image: url("../../lecture 1/background property/background image/image.jpg");
+    border: 2px solid black;
+    background-size: cover; 
+    border-radius: 5px;
+    position: fixed;
+    right: 0px;
+    top: 70px;
+}

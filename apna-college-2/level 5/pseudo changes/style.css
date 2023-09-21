@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    color: black;
+    border: 2px solid black;
+}
+div:hover{
+    /* cursor on elements. */
+    background-color: red;
+    color: white;
+}
+div:active{
+    /* click till hold */
+    background-color: pink;
+}

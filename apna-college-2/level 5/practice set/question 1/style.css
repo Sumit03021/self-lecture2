@@ -1,0 +1,30 @@
+div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-left: 4px solid grey;
+   border-bottom: 4px solid greenyellow;
+   border-top: 4px solid greenyellow;
+   border-right: 4px solid greenyellow;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    animation: coloranime 2s steps(8) 0s infinite normal;
+}
+@keyframes coloranime{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

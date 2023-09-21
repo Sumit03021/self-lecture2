@@ -1,0 +1,42 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: aqua;
+}
+#box1{
+    position: static;
+    background-color: rgba(43, 43, 161,0.5);
+    /* default position (top,right,bottom,left,z index) have no effect. */
+}
+#box2{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    z-index: 1;
+    /* work on position relative to itself if top then top shift/ if left left shift. */
+}
+#box3{
+   background-color: rgba(25, 105, 25,0.4);
+    position: absolute;
+    /* position relative to closest positioned ancestors means  non static-parent element(remove from flow) */
+top: 0px;
+}
+#box4{
+    background-color: rgba(139, 36, 36,0.75);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+}
+#box5{
+    background-color: rgb(185, 52, 52,0.3);
+    position: sticky;
+    top: 0px;
+    /* sticky is fixwd after their position comes. */
+}
+/* z index decides stack level of elements means overlapping element with larger z index cover those with smaller one. */
+/* z index : AUTO(0)
+Z:1/2/-1/-2///. 
+DEFAULT : pehle wala niche under atta hai baad mein wala over atta hai.*/

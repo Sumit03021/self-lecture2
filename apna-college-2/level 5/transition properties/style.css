@@ -1,0 +1,23 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    color: black;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+transition-delay: 1s;
+    /* duration chnage state */
+    /* timing function effects. steps/linear/ease in */
+    /* delay after how much time act effects. */
+    /* transition shorthand:property name, duration, timing function ,delay. */
+}
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+div:active{
+    background-color: pink;
+}

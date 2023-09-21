@@ -1,0 +1,48 @@
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+}
+#container{
+    height: 300px;
+    width: 600px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+flex-wrap: wrap;
+/* align-content: flex-start; */
+/* align item: center,space align between and around content across cross axis.
+cross axis from centre of elements
+align content:center all element at center 
+flex start all at top
+align content space avoid FROM ALIGN items.
+ */
+ /* 
+ align self:on individual elements. 
+ flex grow :grow w.r.t. rest of flex items.
+ flex shrink: shrink w.r.t flex items.*/
+}
+#box1{
+    background-color: aqua;
+
+}
+#box2{
+    background-color: blue;
+    height: 200px;
+    align-self: flex-end;
+
+}
+#box3{
+    background-color: brown;
+
+}
+#box4{
+    background-color: red;
+
+}
+#box5{
+    background-color: green;
+
+}

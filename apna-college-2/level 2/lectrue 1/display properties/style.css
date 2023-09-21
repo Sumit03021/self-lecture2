@@ -1,0 +1,23 @@
+#u{
+    background-color: blue;
+    display: inline;
+}
+button{
+    display: block;
+}
+.my{
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    /* display: inline; */
+    display: inline-block;
+}
+#a{
+    display: none;
+}
+#f{
+    display: inline;
+}
+/* display:none means in visible and no space reserved
+visibility :hidden /none invisible and reserved space for it. */

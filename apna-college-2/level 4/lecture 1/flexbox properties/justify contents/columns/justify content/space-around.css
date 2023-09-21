@@ -1,0 +1,42 @@
+div{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+#container{
+    height: 500px;
+    width: 800px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+/* flex properties   work on flex direction.
+justify content: flex start  main axis start from l2r /flex end arrange in right side but direction same
+center arranged in centre of main axis.
+space around space between boxes equally and end space half.
+space between space between boxes not outside bbox
+space evenly space from start to end same.*/
+/* 
+ */
+
+}
+#box1{
+    background-color: aqua;
+
+}
+#box2{
+    background-color: blue;
+
+}
+#box3{
+    background-color: brown;
+
+}
+#box4{
+    background-color: red;
+
+}
+#box5{
+    background-color: green;
+
+}

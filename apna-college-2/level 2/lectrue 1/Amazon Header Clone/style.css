@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color: #0f1111;
+height:60px;
+}
+button{
+    background-color: #f08804;
+    border-radius: 4px;
+    border-color: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        margin-right: 190px;
+    }
+    #amazon{
+        color:#f08804;
+        font-size: 25px;
+    }
+    #search{
+        border-color: none;
+    }

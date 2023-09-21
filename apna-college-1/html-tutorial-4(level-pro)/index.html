@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header></header>
+<main>
+<ul>
+    <li>apple</li>
+     <ul> 
+        <li>color: red</li>
+        <li>season: winters</li>
+    </ul>
+    <li>mango</li>
+     <ul>
+        <li>color: YELLOW</li>
+        <LI>seasons: summer</LI>
+     </ul>
+    <li>lichi</li>
+     <ul>
+        <li>color: red</li>
+        <li> seasons: summer</li>
+     </ul>
+</ul>
+<hr>
+<ol>
+    <li>apple</li>
+     <ol> 
+        <li>color: red</li>
+        <li>season: winters</li>
+    </ol>
+    <li>mango</li>
+     <ol>
+        <li>color: YELLOW</li>
+        <LI>seasons: summer</LI>
+     </ol>
+    <li>lichi</li>
+     <ol>
+        <li>color: red</li>
+        <li> seasons: summer</li>
+     </ol>
+</ol>
+<!-- order lists and unordered lists -->
+<hr>
+<!-- tr as table row, td table data, th table header -->
+<table>
+   
+   <caption> Student Data</caption> 
+  <thead>
+   <tr>
+        <th>name</th>
+        <th>roll no.</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>sumit</td>
+        <td>1397</td>
+    </tr>
+    <tr>
+        <td>komal</td>
+        <td> 1233</td>
+    </tr>
+</tbody> 
+</table>
+<hr>
+<table>
+   
+    <caption> Student Data</caption> 
+   <thead>
+    <tr>
+         <th COLSPAN="2">INFORMATION</th>
+         <!-- COLSPAN used for define space occupied by th -->
+     </tr>
+ </thead>
+ <tbody>
+     <tr>
+         <td>sumit</td>
+         <td>1397</td>
+     </tr>
+     <tr>
+         <td>komal</td>
+         <td> 1233</td>
+     </tr>
+ </tbody> 
+ </table>
+ <hr>
+ <!-- form used to collect data from users  and action used for where submited forms-->
+ <form action="/action.php">
+    <input type="text" placeholder="username">
+    <br>
+    <input type="password" placeholder="password">
+    <br>
+    <input type="radio" value="Class XI" name="Class">Class XI
+   <br>
+    <input type="radio" value="Class XII" name="Class">Class XII
+    <!-- name same and backend reader value and user click print value  -->
+ </form>
+ <hr>
+ <!-- label means gives icon on screen as screen reader helpful in screenreader and radio button for only check buttons -->
+ <h4>Registration Form</h4>
+ <form action="/action.php">
+    <input type="text" placeholder="username">
+    <br>
+    <input type="password" placeholder="password">
+ <h5>Select your Class</h5>
+ <label for="101">
+    <input type="radio" value="Class XI" name="Class" id="101">Class XI
+<br>
+</label>
+<label for="102">
+    <input type="radio" value="Class XII" name="Class" id="102">Class XII
+    <!-- form radio click only when click on button but label radio click also when click on text options -->
+</label>
+<!-- class and id used div and checkbox used label -->
+<h5>Select your favourite subjects</h5>
+<label for="maths">
+    <input type="checkbox" value="maths" name="subject" id="101">Maths
+</label>
+<br><label for="Physics">
+    <input type="checkbox" value="Physics" name="subject" id="102">Physics
+</label>
+<br><label for="Chemistry">
+    <input type="checkbox" value="Chemistry" name="subject" id="103">Chemistry
+</label>
+<br><label for="Computer">
+    <input type="checkbox" value="Computer" name="subject" id="104">Computer
+</label>
+<br><label for="105">
+    <input type="checkbox" value="English" name="subject" id="105">English
+</label>
+<!-- check once click icon of subjects text click when match id of label-->
+<!-- give some space for feedback of users -->
+<br><br>
+Select your City
+<Select name="city">
+    <option value="delhi">Delhi</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="banglore">Banglore</option>
+    <option value="pune">Pune</option>
+    <option value="kolkata">kolkata</option>
+</Select>
+<br><br>
+<textarea name="feedback" id="101" placeholder="Please give your valuable feedback" row="10"></textarea>
+<br>
+<input type="submit" name="Submit">
+</form>
+<hr>
+<!-- iframe tag like anchor tag source link and iframe source of other website on own website-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mMzfX7WkRLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://google.com" frameborder="0"></iframe>
+<iframe width=560 height=315 src="https://en.wikipedia.com/wiki/india" frameborder="0"></iframe>
+<hr>
+<video width="560" height="315"src="https://www.youtube.com/embed/mMzfX7WkRLU">My Video</video>
+<!-- can not show video why?  :can done controls,autoplay, loops,size of videos-->
+
+</main>
+<footer></footer>
+</body>
+</html>
+<!-- make contact me page for your portfolio -->
+<!-- make websites for students covers: signup form, add link/iframe of your videos,make table on home page to allow different topics covered in your pages -->

@@ -1,0 +1,42 @@
+div{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+#container{
+    height: 400px;
+    width: 800px;
+display: flex;
+flex-direction: row;
+/* flex-direction: row-reverse; */
+/* flex-direction: column; */
+/* flex-direction: column-reverse; */
+
+/* flex direction setfor container only 
+row as default main axis is left
+row reverse as main axis is right
+column as main axis is top
+column reverse as main axis is bottom. also size of inner boxes fitted inside container but only till font size and content not leak.*/
+
+}
+#box1{
+    background-color: aqua;
+
+}
+#box2{
+    background-color: blue;
+
+}
+#box3{
+    background-color: brown;
+
+}
+#box4{
+    background-color: red;
+
+}
+#box5{
+    background-color: green;
+
+}

@@ -1,0 +1,37 @@
+/* download images and set into boxs unsplash.com */
+div{
+    height: 100px;
+    width: 100px;
+   border: 2px solid black;
+   margin: 25px;
+   display: inline-block;
+}
+/* body{ 
+    background-image: url("image.jpg"); also need to set background size.
+} */
+#box1{
+    background-color: blue;
+    background-image:url("image.jpg");
+    background-size: cover;
+    /* cover sets fit into boxs and mostly used it max cases. */
+}
+#box2{
+    background-color: green;
+    background-image:url("image.jpg");
+    background-size: contain;
+    /* contain completely fit or completely image visible. remaining space repeated so set background repeat set no repeat. */
+    background-repeat: no-repeat;
+}
+#box3{
+    background-color: magenta;
+    background-image:url("image.jpg");
+    background-size: auto;
+    /* already by default auto . */
+}
+#box4{
+    background-color: red;
+    background-image:url("image.jpg");
+}
+#box5{
+    background-color: brown;
+}
